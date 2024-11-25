@@ -1,0 +1,29 @@
+.colDes{
+  margin-top: 20px;
+  transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+}
+.card1Des:hover{
+  transform: scale(1.05); /* Grows slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.contDes{
+  align-self: center;
+}
+.navDes{
+  background-color: rgb(39, 126, 5);
+}
+body{
+  background-color: rgba(38, 194, 48, 0.721);
+  background-image:url(assets/bg2.png);
+  background-repeat:repeat-x;
+  background-attachment: fixed;
+  
+}
+.card1Des{
+  background-color: rgb(35, 150, 17);
+  border-radius: 10px;
+  color:#f7eadb;
+}
+.imgDes{
+  border-radius: 10px;
+}
